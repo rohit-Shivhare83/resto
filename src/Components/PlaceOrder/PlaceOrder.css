@@ -1,0 +1,177 @@
+.placeorder {
+  width: 100% !important;
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 2px;
+  height: auto;
+  color: #caf9ff !important;
+  background-color: #caf9ff;
+}
+.placeorder h1 {
+  color: #caf9ff;
+}
+.img_back {
+  width: 100%;
+}
+.img_back img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 44rem;
+}
+.placeorder .order_head {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  color: #caf9ff;
+  padding: 2rem 0;
+  font-size: 1.8rem;
+}
+
+/* ---------- form ------------ */
+.form {
+  position: relative;
+  color: #caf9ff;
+  font-size: 1rem;
+  margin: auto;
+  width: 60%;
+  padding: 1rem;
+  height: max-content;
+
+  /* border-radius: 5px; */
+  /* box-shadow: rgb(130, 201, 255) 0px 1px 2px 0px,
+    rgb(130, 201, 255) 0px 1px 3px 1px; */
+}
+
+.form label {
+  margin: auto 0;
+  color: #caf9ff;
+}
+::placeholder {
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.form label:focus-visible {
+  border: 2px solid #caf9ff;
+}
+
+/* -------------------------------------------------------- */
+
+.input {
+  line-height: 28px;
+  border: 2px solid transparent;
+  border-bottom-color: #caf9ff;
+  padding: 0.2rem 0;
+  outline: none;
+  background-color: transparent;
+  color: #caf9ff;
+  letter-spacing: 1px;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border-color: #caf9ff;
+}
+
+.input::placeholder {
+  color: #caf9ff;
+}
+
+.input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* ------------------------- form ------------------------------- */
+
+.f_name,
+.f_email,
+.f_phone,
+.f_address,
+.f_pincode {
+  font-size: large;
+  height: auto;
+  padding: 0.2rem;
+  display: grid;
+  row-gap: 30px;
+  column-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  padding: 0.8rem 0;
+}
+.f_name {
+  grid-template-columns: 10rem 1fr 1fr;
+  grid-template-rows: 2.2rem;
+}
+.f_email {
+  grid-template-rows: 2.2rem;
+  grid-template-columns: 10rem 1fr;
+}
+.f_phone {
+  grid-template-rows: 2.2rem;
+  grid-template-columns: 10rem 2fr 1fr;
+}
+.f_address {
+  grid-template-columns: 10rem 1fr;
+}
+.f_address label {
+  margin: 0;
+}
+#address {
+  height: 5rem;
+  max-width: 100%;
+}
+.f_pincode {
+  grid-template-rows: 2.2rem;
+  grid-template-columns: 10rem 2fr 1fr;
+}
+
+.form textarea {
+  padding: 0.2rem 0;
+}
+
+.form_hr {
+  margin: 2rem 0rem;
+  background-color: #caf9ff;
+  border: 1px solid #caf9ff;
+}
+/* ------------ Button ----------- */
+.submit_button {
+  display: flex;
+  place-items: center;
+}
+.submit_btn {
+  cursor: pointer;
+  width: 12rem;
+  height: 2.5rem;
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 0.06rem;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 5px;
+  color: #1f3a69;
+  font-weight: bold;
+  border: 1px solid #caf9ff;
+  background-color: #caf9ff;
+  transition: transform 0.07s;
+  font-size: 1rem;
+}
+.submit_btn:hover {
+  transform: scale(1.04);
+  color: #caf9ff;
+  border-color: none;
+  /* cursor: pointer; */
+  background-color: transparent;
+}
+.submit_button {
+  list-style: none;
+  list-style-type: none;
+}

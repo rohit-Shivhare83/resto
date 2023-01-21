@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* 
+Onahau
+HEX: #CAF9FF
+RGB: rgb(202,249,255)
+BIAS: 90%
+
+Moon Raker
+HEX: #C4D2F5
+RGB: rgb(196,210,245)
+BIAS: 99%
+
+Chetwode Blue
+HEX: #8787D7
+RGB: rgb(135,135,215)
+BIAS: 96%
+
+Cerise
+HEX: #E23FAE
+RGB: rgb(226,63,174)
+BIAS: 51% */
+/* @media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav_container {
+  background-color: #caf9ff;
+  height: 80vh;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  vertical-align: middle;
+  height: max-content;
+  padding: 0.5rem;
+}
+
+/* Left Nav */
+.l_navbar {
+  height: fit-content;
+}
+.nav_left {
+  height: max-content;
+}
+.nav_left ul li {
+  line-height: 0.8;
+}
+
+.nav_left ul li #logo {
+  border: none;
+  height: 40px;
+  width: fit-content;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+.nav_left ul li #yummy {
+  color: #1f3a69;
+  text-decoration: none;
+  font-size: large;
+  font-family: "Cinzel", serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+.nav_left ul li #heaven {
+  text-decoration: none;
+  color: #070a14;
+  font-size: x-small;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Right Nav */
+.r_navbar {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+.nav_right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap");
+
+.nav_right ul {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+.nav_right ul li {
+  margin: auto;
+  padding: 1rem 1.5rem;
+}
+.nav_right ul li a {
+  text-decoration: none;
+  color: #1f3a69;
+  transition: 100ms;
+  transition-delay: 100ms;
+}
+.nav_right ul li a:hover {
+  border-bottom: 3px solid #1f3a69;
+  color: #084cc2;
+}
+
+/* Navbar Body */
+/* Left Body*/
+.navbar_body {
+  margin: 5rem;
+}
+.nav_b_content {
+  margin: auto;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.l_body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: middle;
+  text-decoration: none;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.l_body a {
+  text-decoration: none;
+  color: #084cc2;
+  /* width: 2rem !important; */
+  /* min-width: fit-content; */
+}
+.caption {
+  color: #1f3a69;
+  font-family: "Albert Sans", sans-serif;
+}
+.l_body .para {
+  font-family: "ABeeZee", sans-serif;
+  color: #4f6181;
+  padding: 0 0.5rem;
+  /* font-family: "Istok Web", sans-serif; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+
+.btn_order {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  border: 2px solid #1f3a69;
+  background-color: #caf9ff;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  list-style-type: none;
+  /* color: #1f3a69 !important; */
+  color: #1f3a69;
+  text-decoration: none;
+  list-style-type: none;
+  width: 10rem !important;
+  margin: 1.2rem 0.2rem 1rem 0.5rem;
+}
+.btn_order a {
+  color: #1f3a69;
+  height: 100%;
+  padding: 0.7rem 1rem;
+  width: 100%;
+}
+.btn_order a:hover {
+  color: #caf9ff;
+}
+
+.btn_order:hover {
+  color: #caf9ff;
+  background-color: #1f3a69;
+  transform: scale(1.02);
+  transition: transform 200ms;
+  cursor: pointer;
+}
+
+/* 
+#E23FAE
+#C4D2F5
+#8787D7
+#1f3a69
+#CAF9FF 
+*/
+
+/* Right Body */
+.r_body {
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.r_body img {
+  height: fit-content;
+  width: fit-content;
+}
+.r_body img:hover {
+  transform: scale(1.05);
+  transition: transform 200ms;
+}

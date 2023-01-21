@@ -1,0 +1,55 @@
+.booking_main {
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 0.06rem;
+  background-color: #caf9ff;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.booking_main hr {
+  color: #8caadf;
+  border: 1px solid #1f3a69;
+  border-bottom: #1f3a69;
+  width: 100%;
+}
+.booking_menu {
+  display: flex;
+}
+.booking_menu h4 {
+  padding: 1rem 0.5rem;
+  align-self: center;
+  font-size: 1.2rem;
+  color: #1f3a69d6;
+  cursor: pointer;
+}
+
+.booking_menu i {
+  padding: 1rem 0.5rem;
+  align-self: center;
+  font-size: 2rem;
+  color: #1f3a69d6;
+  cursor: pointer;
+}
+.cart_icon {
+  color: #1f3a69d6;
+  height: auto;
+  padding: 0 1rem;
+}
+.cart_icon i {
+  color: #1f3a69d6;
+  padding: 0 0;
+  height: 1rem;
+  font-size: 1.5rem;
+}
+.cart_icon span:nth-child(2) {
+  padding: 0 5px;
+  background-color: #ad1b1bd6;
+  color: white;
+  font-size: 0.8rem;
+  /* font-weight: 0.5rem !important; */
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+}

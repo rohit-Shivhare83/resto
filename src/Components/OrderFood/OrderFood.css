@@ -1,0 +1,10 @@
+.warning {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  color: red;
+  font-family: "ABeeZee", sans-serif;
+}

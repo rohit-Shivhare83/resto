@@ -1,0 +1,69 @@
+.contact_conatiner {
+  background: linear-gradient(110.24deg, #214380 18.58%, #1d4893 82.17%);
+  margin: 0;
+}
+.contact_body {
+  text-align: center;
+  padding: 1rem;
+}
+.contact_body h2 {
+  text-align: center;
+  color: #caf9ff;
+  padding: 1rem;
+}
+.contact_body hr {
+  width: 10%;
+  margin: auto;
+  border: solid #168290;
+}
+.contact_card {
+  height: max-content;
+  margin: 2rem auto;
+  padding: 1rem 1rem;
+  background-color: #caf9ff;
+  border-radius: 1rem;
+  width: 40%;
+  text-align: center;
+  transition: transform 0.1s;
+}
+.contact_card:hover {
+  transform: scale(1.008);
+}
+/* transition: transform 0.4s;
+  transform: scale(1.1); */
+.contact_card p {
+  vertical-align: middle;
+  padding: 0.5rem;
+}
+
+/* Descript Of Contact */
+
+.desc_contact {
+  display: grid;
+  margin: 1rem auto;
+  width: 50%;
+  grid-gap: 10px;
+  color: #caf9ff;
+  grid-template-columns: auto auto;
+  text-align: center;
+  /* padding: 1rem; */
+}
+li a {
+  text-decoration: none;
+  color: #caf9ff;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+}
+.desc_contact h3 {
+  margin: 1rem;
+}
+.desc_restaurant {
+  padding: 1rem;
+}
+.desc_shop {
+  padding: 1rem;
+}
+
+/* Contact Leave reply */

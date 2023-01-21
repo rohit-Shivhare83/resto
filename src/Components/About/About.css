@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: #f6fcff;
+}
+
+.about {
+  text-align: center;
+  padding: 1.2rem 2rem 2rem 2rem;
+}
+.about h2 {
+  margin: 1rem;
+  color: #1f3a69;
+}
+.about hr {
+  width: 10%;
+  margin: auto;
+  border: solid #168290;
+}
+.about_head {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  color: #1f3a69;
+}
+.about_content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 0 6rem;
+  font-size: 0.9rem;
+  font-family: "ABeeZee", sans-serif;
+  flex-wrap: wrap;
+}
+.grid1 {
+  color: #495d80;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1140px) {
+  .about_content {
+    grid-template-areas:
+      "img img "
+      "first second";
+    gap: 10px;
+    padding: 0 6rem;
+    font-size: 0.9rem;
+    font-family: "ABeeZee", sans-serif;
+    flex-wrap: wrap;
+  }
+  .grid1 {
+    grid-area: first;
+  }
+  .grid2 {
+    grid-area: second;
+  }
+  .grid3 {
+    margin: auto;
+    grid-area: img;
+    width: fit-content;
+    height: fit-content;
+  }
+  @media only screen and (max-width: 653px) {
+    .about_content {
+      grid-template-areas:
+        "img "
+        "first"
+        "second";
+      gap: 10px;
+      flex-wrap: wrap;
+      /* background-color: #168290; */
+    }
+    .about {
+      text-align: center;
+      padding: 0.2rem 1rem 1rem 1rem;
+    }
+    .grid1 {
+      grid-area: first;
+    }
+    .grid2 {
+      grid-area: second;
+    }
+    .grid3 {
+      margin: auto;
+      grid-area: img;
+      width: fit-content;
+      height: fit-content;
+    }
+    .img_background img {
+      height: fit-content;
+      width: 80%;
+      overflow: hidden;
+    }
+  }
+}
+
+.grid1 h4 {
+  color: #1f3a69;
+  margin: 1rem 0;
+}
+.grid1 li {
+  text-align: left;
+}
+.grid2 {
+  color: #495d80;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.grid2 li {
+  text-align: left;
+}
+.grid2 h4 {
+  color: #1f3a69;
+  margin: 1rem 0;
+}
+.grid3 {
+  height: fit-content;
+  width: 30rem;
+}
+
+.img_background img {
+  height: 20rem;
+  /* filter: drop-shadow(10px, 10px, 10px, 10px); */
+
+  filter: drop-shadow(0px 10px 5px rgba(221, 221, 255, 0.897));
+}

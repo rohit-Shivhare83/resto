@@ -1,0 +1,112 @@
+/* .booking_main {
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 0.06rem;
+  background-color: aliceblue;
+  padding: 0 5rem;
+}
+.booking_main hr {
+  color: #8caadf;
+  border: 1px solid #1f3a69;
+  border-bottom: #1f3a69;
+  width: 100%;
+}
+.booking_menu {
+  display: flex;
+}
+.booking_menu h4 {
+  padding: 1rem 0.5rem;
+  align-self: center;
+  font-size: larger;
+  color: #1f3a69d6;
+  cursor: pointer;
+}
+
+.booking_menu i {
+  padding: 1rem 0.5rem;
+  align-self: center;
+  font-size: larger;
+  color: #1f3a69d6;
+  cursor: pointer;
+}
+.menu_list_card {
+  padding: 1rem 0;
+  color: #1f3a69;
+}
+.menu_list_card p {
+  font-size: 0.8rem;
+  padding: 0.2rem 0;
+  color: #1f3a69;
+}
+.menu_card_list {
+  margin: 1.2rem 0;
+  padding: 1rem 1rem;
+  height: 34rem;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #caf9ff;
+  background: #caf9ff;
+  box-shadow: 5px 5px 4px #c8f7fc, -5px -5px 4px #ccfbff;
+  color: #1f3a69;
+}
+
+.menu_card_list hr {
+  margin: 1rem 0;
+  color: #8caadf;
+  border: 1px solid #1f3a69;
+  border-bottom: #1f3a69;
+  width: 90%;
+}
+
+/* ------------------------------------------ */
+/* .menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 90%;
+}
+.menu_title {
+  padding: 0 2rem;
+  width: 25rem;
+}
+.menu_inc_dec_quan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+
+}
+.menu_inc_dec_quan i {
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+.menu_quantity {
+  align-self: center;
+  text-align: center;
+  border: 1px solid#bbd5fe;
+  width: 2rem;
+  font-size: 1.2rem !important;
+}
+
+.menu_rating {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: rgb(52, 109, 180);
+}
+
+.menu_inc_dec_quan {
+  display: flex;
+  align-items: center;
+}
+.menu_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+}
+.menu_price h3 {
+  padding: 0 0.2rem;
+}
+.menu_price i {
+  padding: 0 0.2rem;
+}  */

@@ -1,0 +1,21 @@
+.order_list {
+  padding: 1rem 5rem;
+  max-width: 80%;
+  gap: 10px;
+  height: 36rem;
+  flex-wrap: wrap;
+  color: #1f3a69;
+  margin: auto;
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 1px;
+}
+.order_list h4 {
+  padding: 0 0 1rem 0;
+}
+.menu_hr {
+  margin-bottom: 1rem;
+  color: #8caadf;
+  border: 1px solid #1f3a69;
+  border-bottom: #1f3a69;
+  width: 100%;
+}

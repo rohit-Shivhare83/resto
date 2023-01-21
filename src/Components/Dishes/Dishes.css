@@ -1,0 +1,36 @@
+.dish_container {
+  background-color: #f6fcff;
+  padding: 0 0 2rem 0;
+}
+.dish_content {
+  text-align: center;
+}
+.dish_content h2 {
+  padding: 2rem;
+  color: #1f3a69;
+  font-family: "Albert Sans", sans-serif;
+}
+.dish_img {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(4, 15rem);
+  grid-template-rows: 10rem 10rem;
+  grid-gap: 15px;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 1rem;
+}
+.dish_img img {
+  text-align: center;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+  width: fit-content;
+  transition: transform 0.4s;
+  /* transform: translate(100ms); */
+}
+.dish_img img:hover {
+  transform: scale(1.1);
+}
