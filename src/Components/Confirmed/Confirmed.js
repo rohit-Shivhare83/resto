@@ -10,6 +10,7 @@ const Confirmed = () => {
       </div>
       <div className="confirm_img">
         <img
+          className="bounce-in-top"
           src="https://1.bp.blogspot.com/-Xl0Yq2kgjRI/YKKb2xT2KxI/AAAAAAAAHSM/NyuqI44vugkIidjOqpDqYBPhMZmbFF80QCNcBGAsYHQ/w499-h499/3529856-removebg.png"
           alt="confirm_order"
         />

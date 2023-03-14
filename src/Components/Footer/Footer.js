@@ -53,7 +53,7 @@ const Footer = () => {
               <p className="email_success">
                 Succesfull..!!
                 <span onClick={remove}>
-                  <i class="fa-solid fa-trash"></i>
+                  <i className="fa-solid fa-trash"></i>
                 </span>
               </p>
             ) : (

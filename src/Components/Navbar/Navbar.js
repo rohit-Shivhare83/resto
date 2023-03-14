@@ -77,7 +77,11 @@ const navbar = () => {
               </div>
               <div className="r_body">
                 <a href="#">
-                  <img src={Restaurantwithwoman} alt="#" />
+                  <img
+                    className="vibrate-1"
+                    src={Restaurantwithwoman}
+                    alt="#"
+                  />
                 </a>
               </div>
             </div>

@@ -23,9 +23,9 @@ const Reply = () => {
   };
 
   useEffect(() => {
-    console.log(formErr);
+    // console.log(formErr);
     if (Object.keys(formErr).length === 0 && isSubmit) {
-      console.log(formValues);
+      // console.log(formValues);
     }
   }, [formErr]);
 
@@ -48,6 +48,7 @@ const Reply = () => {
 
   const remove = () => {
     setIsSubmit(false);
+    setFormValues({ userName: "", email: "", comment: "" });
   };
 
   return (
@@ -68,7 +69,7 @@ const Reply = () => {
             <div className="reply_success">
               Succesfully , Comment Has Been Posted
               <span onClick={remove}>
-                <i class="fa-solid fa-trash"></i>
+                <i className="fa-solid fa-trash"></i>
               </span>
             </div>
           ) : (

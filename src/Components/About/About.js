@@ -56,7 +56,13 @@ const About = () => {
 
             {/* grid 3 */}
             <div className="img_background grid3">
-              <img id="img_back" src={sitting} alt="#" srcSet="" />
+              <img
+                className="vibrate-1"
+                id="img_back"
+                src={sitting}
+                alt="#"
+                srcSet=""
+              />
             </div>
           </div>
         </div>
